@@ -1,4 +1,4 @@
-# coding-test
+# POC for coding-test
 
 1. Clone the CVAT repository to access the necessary files.
 	```
