@@ -6,7 +6,7 @@ metadata:
     type: detector
     framework: pytorch
     # Please note that the classes below are based on the roboflow classes for the dataset. 
-    # It was the same dataset that was downloaded in the weapons dataset Google colab link shared in the word document.
+    # It was the same dataset that was downloaded in the weapons dataset Google colab link shared in the document.
     spec: |
       [
         {"id": 0, "name": "Aggressor"},
