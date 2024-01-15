@@ -15,7 +15,7 @@
 	```
 	docker compose -f docker-compose.yml -f components/serverless/docker-compose.serverless.yml up -d
 	```
-4. Create an account
+4. Create an account if you don't already have one
 	```
 	docker exec -it cvat_server bash -ic 'python3 ~/manage.py createsuperuser'
 	```
