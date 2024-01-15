@@ -5,17 +5,33 @@ metadata:
     name: custom-model-yolov8
     type: detector
     framework: pytorch
-    # change this accordingly to your model output/classes
+    # Please note that the classes below are based on the roboflow classes for the dataset. 
+    # It was the same dataset that was downloaded in the weapons dataset Google colab link shared in the word document.
     spec: |
       [
-        {"id": 0, "name": "tench"},
-        {"id": 1, "name": "goldfish"},
-        .
-        .
-        .
-        .
-        {"id": 998, "name": "ear"},
-        {"id": 999, "name": "toilet paper"}
+        {"id": 0, "name": "Aggressor"},
+        {"id": 1, "name": "Blood"},
+        {"id": 2, "name": "Guns"},
+        {"id": 3, "name": "Guns-perspective"},
+        {"id": 4, "name": "Hand"},
+        {"id": 5, "name": "Heavy-Gun"},
+        {"id": 6, "name": "Knife"},
+        {"id": 7, "name": "Knife_Deploy"},
+        {"id": 8, "name": "Knife_Weapon"},
+        {"id": 9, "name": "Long-guns"},
+        {"id": 10, "name": "Person"},
+        {"id": 11, "name": "Pistol"},
+        {"id": 12, "name": "Rifle"},
+        {"id": 13, "name": "Shotgun"},
+        {"id": 14, "name": "violence"},
+        {"id": 15, "name": "Stabbing"},
+        {"id": 16, "name": "Victim"},
+        {"id": 17, "name": "al"},
+        {"id": 18, "name": "guns"},
+        {"id": 19, "name": "handgun"},
+        {"id": 20, "name": "weapon"},
+        {"id": 21, "name": "heavyweapon"},
+        {"id": 22, "name": "larga"},
       ]
 spec:
   description: custom-model-yolov8
