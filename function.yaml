@@ -19,7 +19,7 @@ metadata:
       ]
 spec:
   description: custom-model-yolov8
-  runtime: 'python:3.9'
+  runtime: 'python:3.11'
   handler: main:handler
   eventTimeout: 30s
 
