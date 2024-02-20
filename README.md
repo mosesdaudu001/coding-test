@@ -23,14 +23,14 @@
 5. Install `nuctl` with current version of amd64
    
 	```
-	wget https://github.com/nuclio/nuclio/releases/download/1.8.14/nuctl-1.8.14-linux-amd64
+	wget https://github.com/nuclio/nuclio/releases/download/1.8.14/nuctl-1.11.24-linux-amd64
 	```
 	
 6. After downloading the nuclio, give it a proper permission and do a softlink.
    
 	```
-	sudo chmod +x nuctl-1.8.14-linux-amd64
-	sudo ln -sf $(pwd)/nuctl-1.8.14-linux-amd64 /usr/local/bin/nuctl
+	sudo chmod +x nuctl-1.11.24-linux-amd64
+	sudo ln -sf $(pwd)/nuctl-1.11.24-linux-amd64 /usr/local/bin/nuctl
 	```
 
 7. Start CVAT together with the plugin use for AI automatic annotation assistant.
