@@ -23,7 +23,7 @@
 5. Install `nuctl` with current version of amd64
    
 	```
-	wget https://github.com/nuclio/nuclio/releases/download/1.8.14/nuctl-1.11.24-linux-amd64
+	wget https://github.com/nuclio/nuclio/releases/download/1.11.24/nuctl-1.11.24-linux-amd64
 	```
 	
 6. After downloading the nuclio, give it a proper permission and do a softlink.
